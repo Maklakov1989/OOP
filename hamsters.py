@@ -20,7 +20,7 @@ class Hamster:
     def on_shot(self):
         self.health -= 1
         if self.health == 0:
-            print(self.id, "was kiled")
+            print(self.id, "was killed")
             return True
         else:
             return False
